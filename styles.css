@@ -66,6 +66,10 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 body {
     background-color: var(--lavender);
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+    font-family: 'Inter';
 }
 
 h1, h2 {
@@ -74,9 +78,8 @@ h1, h2 {
 }
 
 section {
-    font-family: 'Inter';
     background-color: var(--purple);
-    max-width: 450px; /* fix me */
+
 }
  
 h1 {
@@ -91,6 +94,32 @@ header p {
     padding: 0px 0px 40px 0px;
 }
 
+nav {
+    background-color: var(--yellow);
+}
+
+nav li {
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0px 20px 20px 20px;
+}
+
+li a {
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--purple);
+    font-weight: bold;
+    padding: 13px;
+    display: block;
+}
+
+h2 {
+    font-size: 2em;
+}
+
 header h2 {
     font-size: 1.5em;
     font-family: 'Inter';
@@ -99,35 +128,85 @@ header h2 {
     font-weight: bold;
     text-align: center;
     padding: 10px 0px;
+    font-style: italic;
 }
 
-nav {
-    background-color: var(--yellow);
+#Services h2 {
+    margin: 0 15px;
+    padding-top: 15px;
 }
 
-nav li {
-    padding: 5px;
-}
-
-li a {
-    text-decoration: none;
+#Services section > section {
     background-color: var(--white);
-    color: var(--purple);
-    text-align: center;
+    display: block;
+    margin: 15px 25px;
+    padding: 30px 25px;
+    border-radius: 15px;
 }
 
-h2 {
-    font-size: 2em;
+img {
+    margin: 3px;
+}
+
+#Services section > section p {
+    padding: 5px 0px;
+    line-height: 1.5em;
+}
+
+#Services {
+    padding-bottom: 10px;
 }
 
 h3 {
     font-size: 1.5em;
     color: var(--yellow);
+    font-family: 'Inter';
+    font-weight: bold;
+    margin: 0 15px;
+    padding-top: 5px;
 }
 
 h4 {
     font-size: 1.15em;
     color: var(--purple);
+    font-weight: bold;
+}
+
+#Choose h2 {
+    margin: 0 15px;
+    padding-top: 15px;
+}
+
+#Choose ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 15px;
+}
+
+#Choose li {
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    width: 130px;
+}
+
+#Choose li:nth-child(1) {
+    background-color: var(--teal);
+}
+
+#Choose li:nth-child(2) {
+    background-color: var(--lavender);
+}
+
+#Choose li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+#Choose li:nth-child(4) {
+    background-color: var(--white);
 }
 
 #Choose {
@@ -136,4 +215,8 @@ h4 {
 
 #First {
     background-color: var(--pink);
+}
+
+footer {
+    background-color: var(--purple);
 }
