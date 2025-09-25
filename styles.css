@@ -70,7 +70,6 @@ body {
     margin: 0 auto;
     max-width: 450px;
     font-family: 'Inter';
-    width: 100%;
 }
 
 h1, h2 {
@@ -180,7 +179,7 @@ h4 {
 
 #Choose ul {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
     padding: 15px;
 }
