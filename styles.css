@@ -213,10 +213,92 @@ h4 {
     background-color: var(--pink);
 }
 
+#Prices h2 {
+    margin: 0 15px;
+    padding-top: 15px;
+}
+
+#Prices {
+    padding-bottom: 10px;
+}
+
 #First {
     background-color: var(--pink);
 }
 
+table {
+    margin: 10px 75px;
+    background-color: var(--yellow);
+    font-family: 'Inter';
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+tr {
+    display: flex;
+    gap: 3px;
+    background-color: var(--yellow);
+    margin-bottom: 3px;
+}
+
+th {
+    font-weight: bold;
+    padding: 15px;
+    flex: 1;
+}
+
+td {
+    background-color: var(--white);
+    padding: 10px;
+    flex: 2; /*fix me */
+    text-align: center;
+}
+
+#First h2 {
+    margin: 0 15px;
+    padding-top: 15px;
+}
+
+#First p {
+    color: var(--white);
+    margin: 0px 10px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#First a {
+    display: block;
+    text-align: center;
+    margin: 5px 30px;
+    text-decoration: none;
+    color: var(--dark-gray);
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px var(--dark-gray);
+    font-weight: bold;
+}
+
+#First {
+    padding-bottom: 10px;
+}
+
 footer {
     background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    margin-bottom: 25px;
+}
+footer p {
+    color: var(--white);
+    margin: 15px;
+}
+
+footer a {
+    color: var(--white);
+    margin: 15px;
 }
