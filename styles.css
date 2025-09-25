@@ -70,6 +70,7 @@ body {
     margin: 0 auto;
     max-width: 450px;
     font-family: 'Inter';
+    width: 100%;
 }
 
 h1, h2 {
